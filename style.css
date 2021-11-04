@@ -3,7 +3,7 @@
 html, body {
     height: 100%;
     padding: 0;
-    background-color: rgba(255, 102, 0, 0.747);  
+    background-color: rgba(245, 162, 95, 0.329);  
     
     color: #303030;
     font: Verdana, Arial, Sans-Serif;
@@ -19,12 +19,15 @@ main {
 
 article {
     text-align: justify;
+    background-color: rgba(0, 0, 0, 0);
 }
 
 
 header {
-    color: rgb(255, 255, 255);
+    color: rgba(255, 255, 255, 0.904);
     text-align: center;
+    background-color:rgb(255, 126, 20);
+
 }
 
 
@@ -56,11 +59,12 @@ a:hover {
 
 
 /* navigatiebalk */
+
 nav ul {
     list-style-type: none;
     margin: auto;
     padding: 0;
-    background-color: #dddddd;
+    background-color: #97979752;
     overflow: hidden;
 }
 
@@ -81,7 +85,7 @@ nav li a:hover {
 }
 
 nav li a.active {
-    background-color: skyblue;
+    background-color: rgba(3, 146, 241, 0.74);
 }
 
 
