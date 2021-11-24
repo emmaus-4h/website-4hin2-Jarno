@@ -1,9 +1,13 @@
+* { border: 1px dotted #303030
+}
+
+
 /* Basislayout */
 
 html, body {
     height: 100%;
     padding: 0;
-    background-color: rgba(245, 162, 95, 0.329);  
+    background-color: rgba(19, 23, 255, 0);  
     
     color: #303030;
     font: Verdana, Arial, Sans-Serif;
@@ -42,6 +46,7 @@ footer {
 img.zweefLinks {
     float: left;
     margin-right: 15px;
+    width: 250px;
 }
 
 .smalltext {
@@ -64,7 +69,7 @@ nav ul {
     list-style-type: none;
     margin: auto;
     padding: 0;
-    background-color: #97979752;
+    background-color: #a3a3a39a;
     overflow: hidden;
 }
 
@@ -81,7 +86,7 @@ nav li a {
 }
 
 nav li a:hover {
-    background-color: #aaaaaa;
+    background-color: #808080d2;
 }
 
 nav li a.active {
