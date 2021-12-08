@@ -2,7 +2,8 @@
 
 *{
   box-sizing:border-box;
-   
+  background-image: "gang.jpg"
+  
 }
 html, body {
     height: 100%;
@@ -16,7 +17,15 @@ html, body {
 
     color: #303030;
     font: Helvetica, Verdana, Sans-Serif;
-  
+}
+.bg {
+  background-image: url("gang.jpg");
+
+  height: 100%;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 
@@ -46,9 +55,6 @@ footer {
     text-align: center;
     padding-bottom: 10px;
 }
-
-
-/* specifieke stijlen */
 
 img.zweefLinks {
     float: left;
