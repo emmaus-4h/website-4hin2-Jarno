@@ -8,7 +8,12 @@ html, body {
     height: 100%;
     padding: 0;
     background-color: rgba(19, 23, 255, 0);  
-    
+     background-image: url(afbeeldingen/gang.jpg);
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
     color: #303030;
     font: Helvetica, Verdana, Sans-Serif;
   
@@ -31,7 +36,7 @@ article {
 header {
     color: rgba(255, 255, 255, 0.904);
     text-align: center;
-    background-color:rgb(255, 126, 20);
+    background-color:rgba(255, 126, 20, 0.007);
     
 
 }
@@ -78,7 +83,7 @@ nav ul {
     list-style-type: none;
     margin: auto;
     padding: 0;
-    background-color: #a3a3a39a;
+    background-color: #a3a3a300;
     overflow: hidden;
 }
 
@@ -99,7 +104,7 @@ nav li a:hover {
 }
 
 nav li a.active {
-    background-color: rgba(10, 115, 252, 0.74);
+    background-color: rgba(252, 119, 10, 0.349);
 }
 
 
