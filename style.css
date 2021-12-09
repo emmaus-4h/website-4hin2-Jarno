@@ -95,13 +95,14 @@ nav ul {
 
 nav ul li {
     float: left;
+    margin-top: 25px;
 }
 
 nav li a {
     display: block;
-    color: white;
+    color: rgb(255, 255, 255);
     text-align: center;
-    padding: 14px 16px;
+    padding: 14px 17px;
     text-decoration: none;
 }
 
