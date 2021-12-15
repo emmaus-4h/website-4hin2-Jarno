@@ -12,12 +12,10 @@ html, body {
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  
-
-    color: #303030;
-    font: Helvetica, Verdana, Sans-Serif;
+  color: #303030;
+  font: Helvetica, Verdana, Sans-Serif;
 }
-.bg {
+.banner {
   background-image: url("gang.jpg");
 
   height: 100%;
@@ -94,7 +92,7 @@ nav ul {
 
 nav ul li {
     float: left;
-    margin-top: 25px;
+    margin-top: 0px;
 }
 
 nav li a {
