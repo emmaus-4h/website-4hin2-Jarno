@@ -4,10 +4,10 @@
   box-sizing:border-box;
 }
 html, body {
-    height: 100%;
-    padding: 0;
-    background-color: rgba(19, 23, 255, 0);  
-     background-image: url(afbeeldingen/gang.jpg);
+  height: 100%;
+  padding: 0;
+  background-color: rgba(19, 23, 255, 0);  
+  background-image: url(afbeeldingen/gang.jpg);
   background-position: center ;
   background-repeat: no-repeat;
   background-size: cover;
@@ -28,7 +28,7 @@ html, body {
 
 main {
     margin: 0 auto;
-    width: 700px;
+    width: 1440px;
     position: relative;
 }
 
@@ -77,7 +77,7 @@ a:hover {
     text-decoration: underline;
 }
 
-.logo{
+.logo {
   float:left;
 }
 /* navigatiebalk */
@@ -88,6 +88,7 @@ nav ul {
     padding: 0;
     background-color: #a3a3a300;
     overflow: hidden;
+    float: right;
 }
 
 nav ul li {
@@ -99,7 +100,7 @@ nav li a {
     display: block;
     color: rgb(255, 255, 255);
     text-align: center;
-    padding: 14px 17px;
+    padding: 20px 30px;
     text-decoration: none;
 }
 
@@ -110,7 +111,5 @@ nav li a:hover {
 nav li a.active {
     background-color: rgba(252, 119, 10, 0.349);
 }
-
-
 
 
