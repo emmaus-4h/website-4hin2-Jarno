@@ -2,31 +2,29 @@
 
 *{
   box-sizing:border-box;
+  overflow: hidden;
+  margin: 1px;
+  border: 1px dotted #ff0000
+  
 }
 html, body {
-  height: 100%;
-  padding: 0;
-  background-color: rgba(19, 23, 255, 0);  
-  background-image: url(afbeeldingen/gang.jpg);
-  background-position: center ;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-  color: #303030;
-  font: Helvetica, Verdana, Sans-Serif;
+  
 }
 
 
 main {
     margin: 0 auto;
-    width: 1440px;
+
     position: relative;
+    float: center;
+    width: 1900px
 }
 
 
 article {
     text-align: justify;
     background-color: rgba(0, 0, 0, 0);
+    
 }
 
 
@@ -34,7 +32,7 @@ header {
     color: rgba(255, 255, 255, 0.904);
     text-align: center;
     background-color:rgba(255, 126, 20, 0.007);
-   
+  
 
 }
 
@@ -70,6 +68,8 @@ a:hover {
 
 .logo {
   float:left;
+  background-image: url(afbeeldingen/nl.png);
+  background-repeat: no-repeat;
 }
 /* navigatiebalk */
 
@@ -101,4 +101,17 @@ nav li a:hover {
 
 nav li a.active {
     background-color: rgba(252, 119, 10, 0.349);
+}
+
+.banner {
+    height: 100%;
+  padding: 0;
+  background-color: rgba(19, 23, 255, 0);  
+  background-image: url(afbeeldingen/gang.jpg);
+  background-position: center ;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  color: #303030;
+  font: Helvetica, Verdana, Sans-Serif;
 }
