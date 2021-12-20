@@ -1,8 +1,8 @@
 /* Basislayout */
 
 *{
-  box-sizing:border-box;
-  overflow: hidden;
+box-sizing:border-box;
+overflow: hidden;
  
 }
 html, body {
@@ -119,6 +119,11 @@ nav li a.active {
 
 .belangrijk {
   font-size: 160px;
-  opacity: 10;
-  float: right;
+  opacity: none;
+  float: left; 
+}
+
+.tekst {
+  font-size: 40px;
+  
 }
