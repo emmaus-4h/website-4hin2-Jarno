@@ -3,9 +3,7 @@
 *{
   box-sizing:border-box;
   overflow: hidden;
-  margin: 1px;
-  border: 1px dotted #ff0000
-  
+ 
 }
 html, body {
   
@@ -97,10 +95,13 @@ nav li a {
 
 nav li a:hover {
     background-color: #808080d2;
+    opacity: 0.6;
+    
 }
 
 nav li a.active {
-    background-color: rgba(252, 119, 10, 0.349);
+    background-color: rgba(252, 119, 10, 0.178);
+   
 }
 
 .banner {
@@ -114,4 +115,10 @@ nav li a.active {
   background-attachment: fixed;
   color: #303030;
   font: Helvetica, Verdana, Sans-Serif;
+}
+
+.belangrijk {
+  font-size: 160px;
+  opacity: 10;
+  float: right;
 }
