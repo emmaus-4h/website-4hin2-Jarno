@@ -3,7 +3,7 @@
 *{
 box-sizing:border-box;
 overflow: hidden;
-border: dotted 1px;
+
 }
 html, body {
   
@@ -105,7 +105,7 @@ nav li a.active {
 }
 
 .banner {
-    height: 100%;
+  height: 100%;
   padding: 0;
   background-color: rgba(19, 23, 255, 0);  
   background-image: url(afbeeldingen/gang.jpg);
@@ -121,54 +121,49 @@ nav li a.active {
   font-size: 160px;
   opacity: none;
   float: left; 
+  text-shadow: 2px 2px 4px #000000;
 }
 
 .tekst {
   font-size: 40px;
-  
+  text-shadow: 2px 2px 4px #000000;
 }
 
 .div1 {
-  background-color: goldenrod;
+  background-color: rgba(255, 255, 255, 0.705);
   width: 33.33%;
   float: left;
-  f
+  padding: 10px;
+  border: solid 1px rgba(0, 0, 0, 0.356);
+  text-align:center;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .div2 {
-  background-color: lightcoral;
+  background-color: rgba(255, 255, 255, 0.705);
   width: 33.33%;
   float: right;
+  padding: 10px;
+ border: solid 1px rgba(0, 0, 0, 0.356);
+  text-align:center;
+ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .div3 {
- background-color: whitesmoke;
+ background-color: rgba(255, 255, 255, 0.705);
  width: 33.33%;
  float: center;
+ padding: 10px;
+ border: solid 1px rgba(0, 0, 0, 0.356);
+ text-align:center;
+ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-
-.image1 {
-  width: 33.33%;
-  float: left;
-  
-}
-
-.image2 {
-  width: 33.33%;
-  float: center;
  
-}
-
-.image3 {
-  width: 33.33%;
-  float: right;
- 
-}
-
 .column {
   float: left;
   width: 33.33%;
   padding:  12.5px;
+
 }
 
 .row::after {
