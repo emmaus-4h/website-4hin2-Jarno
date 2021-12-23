@@ -22,9 +22,15 @@ main {
 article {
     text-align: justify;
     background-color: rgba(0, 0, 0, 0);
-    
+      padding-left: 120px;
+    padding-right: 120px;
 }
 
+article2 {
+    text-align: justify;
+    background-color: rgba(0, 0, 0, 0);
+  
+}
 
 header {
     color: rgba(255, 255, 255, 0.904);
@@ -159,6 +165,27 @@ nav li a.active {
  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
  
+ .div4 {
+  background-color: rgba(255, 255, 255, 0.705);
+  width: 728px;
+  float: left;
+  padding: 10px;
+  border: solid 1px rgba(0, 0, 0, 0.356);
+  text-align:center;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+.div5 {
+  background-color: rgba(255, 255, 255, 0.705);
+  width: 728px;
+  float: right;
+  padding: 10px;
+  border: solid 1px rgba(0, 0, 0, 0.356);
+  text-align:center;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
 .column {
   float: left;
   width: 33.33%;
@@ -167,7 +194,18 @@ nav li a.active {
 }
 
 .row::after {
-  content: "";
   display: table;
   clear: both;
+}
+
+.column2 {
+  float: left;
+  padding:  12.5px;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.column3 {
+  float: right;
+  padding:  12.5px;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
