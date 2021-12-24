@@ -3,7 +3,6 @@
 *{
 box-sizing:border-box;
 overflow: hidden;
-
 }
 html, body {
   
@@ -22,15 +21,11 @@ main {
 article {
     text-align: justify;
     background-color: rgba(0, 0, 0, 0);
-      padding-left: 120px;
+    padding-left: 120px;
     padding-right: 120px;
 }
 
-article2 {
-    text-align: justify;
-    background-color: rgba(0, 0, 0, 0);
-  
-}
+
 
 header {
     color: rgba(255, 255, 255, 0.904);
@@ -40,21 +35,18 @@ header {
 
 }
 
+article2 {
+    text-align: justify;
+    background-color: rgba(0, 0, 0, 0);
+  
+}
 
 footer {
     text-align: center;
     padding-bottom: 10px;
 }
 
-img.zweefLinks {
-    float: left;
-    margin-right: 15px;
-    width: 250px;
-}
-img.poep {
-    float: right;
-    margin-left: 15px;
-    width: 250px;
+
 }
 
 .smalltext {
@@ -186,16 +178,18 @@ nav li a.active {
    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+.div6 {
+ background-color: rgba(255, 255, 255, 0.705);
+ width: 900px;
+ padding: 10px;
+ border: solid 1px rgba(0, 0, 0, 0.356);
+ text-align:center;
+ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
 .column {
   float: left;
   width: 33.33%;
   padding:  12.5px;
-
-}
-
-.row::after {
-  display: table;
-  clear: both;
 }
 
 .column2 {
@@ -208,4 +202,14 @@ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   float: right;
   padding:  12.5px;
 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.column4 {
+ float: center;
+ padding:  12.5px;
+}
+
+.row::after {
+  display: table;
+  clear: both;
 }
