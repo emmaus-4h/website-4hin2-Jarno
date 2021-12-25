@@ -4,9 +4,6 @@
 box-sizing:border-box;
 overflow: hidden;
 }
-html, body {
-  
-}
 
 
 main {
@@ -117,9 +114,9 @@ nav li a.active {
 
 .belangrijk {
   font-size: 160px;
-  opacity: none;
   float: left; 
   text-shadow: 2px 2px 4px #000000;
+  padding-left: 100px;
 }
 
 .tekst {
