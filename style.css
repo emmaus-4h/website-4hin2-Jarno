@@ -8,7 +8,6 @@ overflow: hidden;
 
 main {
     margin: 0 auto;
-
     position: relative;
     float: center;
     width: 1900px
@@ -23,7 +22,6 @@ article {
 }
 
 
-
 header {
     color: rgba(255, 255, 255, 0.904);
     text-align: center;
@@ -35,7 +33,6 @@ header {
 article2 {
     text-align: justify;
     background-color: rgba(0, 0, 0, 0);
-  
 }
 
 footer {
@@ -135,33 +132,33 @@ nav li a.active {
 }
 
 .div2 {
-  background-color: rgba(255, 255, 255, 0.705);
-  width: 33.33%;
-  float: right;
-  padding: 10px;
- border: solid 1px rgba(0, 0, 0, 0.356);
-  text-align:center;
- box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+background-color: rgba(255, 255, 255, 0.705);
+width: 33.33%;
+float: right;
+padding: 10px;
+border: solid 1px rgba(0, 0, 0, 0.356);
+text-align:center;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .div3 {
- background-color: rgba(255, 255, 255, 0.705);
- width: 33.33%;
- float: center;
- padding: 10px;
- border: solid 1px rgba(0, 0, 0, 0.356);
- text-align:center;
- box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+background-color: rgba(255, 255, 255, 0.705);
+width: 33.33%;
+float: center;
+padding: 10px;
+border: solid 1px rgba(0, 0, 0, 0.356);
+text-align:center;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
  
  .div4 {
   background-color: rgba(255, 255, 255, 0.705);
   width: 728px;
   float: left;
-  padding: 10px;
-  border: solid 1px rgba(0, 0, 0, 0.356);
-  text-align:center;
-   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+padding: 10px;
+border: solid 1px rgba(0, 0, 0, 0.356);
+text-align:center;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 
@@ -183,27 +180,52 @@ nav li a.active {
  text-align:center;
  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+
 .column {
-  float: left;
-  width: 33.33%;
-  padding:  12.5px;
+
+float: left;
+width: 33.33%;
+padding:  12.5px;
 }
 
 .column2 {
-  float: left;
-  padding:  12.5px;
-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+float: left;
+padding:  12.5px;
+padding-left: 50px;
 }
 
 .column3 {
-  float: right;
-  padding:  12.5px;
+float: right;
+padding:  12.5px;
 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .column4 {
- float: center;
- padding:  12.5px;
+float: center;
+padding:  12.5px;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.column5 {
+float: left;
+padding:  12.5px;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.column6 {
+float: left;
+width: 33.33%;
+padding:  15px;
+padding-left: 25px;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.column7 {
+float: right;
+width: 33.33%;
+padding:  15px;
+padding-left: 50px;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .row::after {
